@@ -103,8 +103,162 @@ ul.categorias {
 div.destacados {
     display: flex;
     flex-direction: row;
-    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3C2313;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 8vh;
+    gap: 2vw;
+}
 
+div.churrasquito {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+div.comedero {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+div.huesito {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+div.destacados p {
+    background-color: #FBFAF6;
+    padding-bottom: 1vh;
+}
+
+div.destacados p.price {
+    color: #F0A83E;
+}
+
+div.contacto {
+    text-align:center;
+    margin-bottom: 3vh;
+}
+
+div.contacto form {
+    max-width: 340px;   
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+div.contacto form legend {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 2vh;
+}
+
+div.contacto form input {
+    text-align: ;
+    margin-bottom: 1vh;
+    border: none;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    color: white;
+    background-color: #3C2313;
+    width: 325px;
+    height: 35px;
+}
+
+div.buttons {
+    margin-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    justify-content: center;   
+}
+
+div.buttons input {
+    width: 110px;
+    height: 40px;  
+}
+
+#reset {
+    background-color: #666666;
+}
+
+#submit {
+    background-color:#F0A83E;
+}
+
+div.subscribe {
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div.subscribe form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+div.subscribe input {
+    border: none;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 1vw;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 35px;
+    
+}
+
+div.subscribe img {
+    vertical-align: text-bottom;
+    height: 25px;
+    padding-right: 0.5vw;
+}
+
+#email {
+    background-color: white;
+    width: 300px;
+    padding-left: 15px;
+}
+
+#subscribe {
+    width: 90px;
+    background-color: #3C2313;  
+    color: white;
+}
+
+div.info {
+    background-color: #3C2313;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    color: white;   
+    padding-right: 100px;
+    padding-left: 100px;
+    height: 30vh;
+}
+
+div.left {
+    
 }
 
 footer div p {
