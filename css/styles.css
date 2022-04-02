@@ -2,6 +2,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -67,6 +68,14 @@ header nav img {
 
 #banner {
     width: 100%;
+    height: auto;
+}
+
+main div.banner {
+    background-image: url("../img/banner.jpg");
+    width: 100%;
+    height: 850px;  
+    background-size: cover;
 }
 
 img#patita {
@@ -75,8 +84,10 @@ img#patita {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 3vh;
+    padding-top: 3vh;
     
 }
+
 
 main div h2 {
     font-weight: 700;
@@ -84,6 +95,41 @@ main div h2 {
     color: #3C2313;
     text-align: center;
     padding-bottom: 3vh;
+}
+
+.placer {
+    position: absolute;
+    top: 450px;
+    right: 200px;
+    z-index: 100;
+}
+
+.placer p {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #3C2313;
+    font-weight: 400;
+}
+
+#placer {
+    font-size: 38px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#descuento {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#boton {
+    padding: 15px 23px 15px 23px;
+    background-color: #F0A83E;
+    color: white;
+    border-radius: 5px;
+    width:max-content;
+    margin: 0 auto;
 }
 
 ul.categorias {
@@ -170,8 +216,8 @@ div.contacto form input {
     padding-left: 15px;
     color: white;
     background-color: #3C2313;
-    width: 325px;
-    height: 35px;
+    width: 340px;
+    height: 40px;
 }
 
 div.buttons {
@@ -266,3 +312,35 @@ footer div p {
     height: 25px;
     font-weight: 400;
 }   
+
+a:link {
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 414px) {
+
+    header div {
+        display: none;
+    }
+    
+    header nav ul {
+        display: none;
+    }
+
+    main div.banner {
+        background-image: url("../img/banner.jpg");
+        width: 100%;
+        height: 500px;  
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
