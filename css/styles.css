@@ -302,6 +302,39 @@ div.info {
     height: 30vh;
 }
 
+div.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30vh;
+}
+
+div.localidad {
+    display: flex;
+    gap: 20px;
+}
+
+div h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+div h6 {
+    font-size: 10px;
+    font-weight: 700;
+    color: #8A8787;
+}
+
+div.telefono {
+    display: flex;
+    gap: 20px;
+}
+
+div.correo {
+    display: flex;
+    gap: 20px;
+}
+
 footer div p {
     display: flex;
     align-items: center;
